@@ -1,0 +1,27 @@
+{
+    "model_params": {
+        "input_shape": [
+            24,
+            30
+        ],
+        "n_features": 30,
+        "sequence_length": 24
+    },
+    "training_params": {
+        "batch_size": 128,
+        "total_epochs": 100,
+        "best_epoch": 94
+    },
+    "performance_metrics": {
+        "final_loss": 0.06517542153596878,
+        "final_mae": 0.13557544350624084,
+        "best_val_loss": 0.06352950632572174,
+        "out_of_range_predictions": 0
+    },
+    "prediction_stats": {
+        "n_predictions_added": 227879,
+        "mean_predicted_uv": 0.585634171962738,
+        "min_predicted_uv": 0.0032156717497855425,
+        "max_predicted_uv": 3.182884931564331
+    }
+}
