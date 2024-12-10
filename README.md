@@ -23,6 +23,11 @@ The model notebooks are located in the `/models` directory, organized by differe
 ### Synthetic Data Generation
 The script for generating synthetic training data is located at: ```/olive_oil_train_dataset/create_train_dataset.py```
 
+#### Command
+``
+python -m olive_oil_train_dataset.create_train_dataset --random-seed 42 --num-simulations 100000 --batch-size 10000 --max-workers 20
+``
+
 This script is responsible for creating synthetic data used in training the olive oil production model.
 
 ### Utility Functions
